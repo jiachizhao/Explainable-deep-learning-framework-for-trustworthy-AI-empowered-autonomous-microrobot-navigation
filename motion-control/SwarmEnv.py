@@ -101,8 +101,6 @@ class ZJCSwarmEnv:
 
         random_a0 = random.uniform(0.4, 2.0)
         random_deltat = random.choice([0.2, 0.4, 0.6, 0.8, 1.0])
-        random_a0 = 1.0
-        random_deltat = 1.0
         self.Swarm = Swarm2DMotion(a0=random_a0, deltat=random_deltat)
 
         if draw_maze:
@@ -113,5 +111,6 @@ class ZJCSwarmEnv:
 
         relative_angle = self.process.get_angle_swarm_target(self.init_pos[0], self.init_pos[1], self.target_center[0], self.target_center[1], nor=True)
         deviation = 0
+
 
         return relative_angle, deviation, random_a0, random_deltat
