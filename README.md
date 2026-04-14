@@ -1,4 +1,4 @@
-# Explainable-deep-learning-framework-for-trustworthy-AI-empowered-autonomous-microrobot-navigation
+# Physics-constrained learning framework for trustworthy microrobot navigation autonomy
 
 # Environment setup:
 <pre>
